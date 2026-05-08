@@ -39,6 +39,14 @@ namespace XARIDLAR {
 
 
 
+
+
+	protected:
+
+	protected:
+
+
+
 	private:
 		/// <summary>
 		/// Required designer variable.
