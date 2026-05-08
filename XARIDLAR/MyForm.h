@@ -38,7 +38,7 @@ namespace XARIDLAR {
 	private: System::Windows::Forms::Button^ button2;
 
 	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::Button^ button3;
+
 	protected:
 
 	protected:
@@ -75,7 +75,6 @@ namespace XARIDLAR {
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// button1
@@ -105,21 +104,11 @@ namespace XARIDLAR {
 			this->label1->TabIndex = 2;
 			this->label1->Text = L"label1";
 			// 
-			// button3
-			// 
-			this->button3->Location = System::Drawing::Point(385, 116);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(202, 23);
-			this->button3->TabIndex = 3;
-			this->button3->Text = L"Asqar gandon";
-			this->button3->UseVisualStyleBackColor = true;
-			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(997, 613);
-			this->Controls->Add(this->button3);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
