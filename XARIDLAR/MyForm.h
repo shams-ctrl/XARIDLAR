@@ -39,6 +39,7 @@ namespace XARIDLAR {
 
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::Button^ button3;
+	private: System::Windows::Forms::DateTimePicker^ dateTimePicker1;
 
 	protected:
 
@@ -77,6 +78,7 @@ namespace XARIDLAR {
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->dateTimePicker1 = (gcnew System::Windows::Forms::DateTimePicker());
 			this->SuspendLayout();
 			// 
 			// button1
@@ -115,11 +117,19 @@ namespace XARIDLAR {
 			this->button3->Text = L"button3";
 			this->button3->UseVisualStyleBackColor = true;
 			// 
+			// dateTimePicker1
+			// 
+			this->dateTimePicker1->Location = System::Drawing::Point(402, 216);
+			this->dateTimePicker1->Name = L"dateTimePicker1";
+			this->dateTimePicker1->Size = System::Drawing::Size(200, 22);
+			this->dateTimePicker1->TabIndex = 4;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(997, 613);
+			this->Controls->Add(this->dateTimePicker1);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->button2);
